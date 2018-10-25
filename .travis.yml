@@ -4,9 +4,9 @@ sudo: false
 
 php:
   - 7.1
-
+  
 script:
-  - sh -c "curl -ILk https://maintainance.dallasmakerspace.org"
+  - sh -c "curl -ILk https://maintenance.dallasmakerspace.org"
 
 notifications:
   email:
